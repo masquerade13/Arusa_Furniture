@@ -1,0 +1,863 @@
+/* only for arusa logo */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+
+/* simple font for home and bag button  */
+@font-face {
+    font-family: 'Reckless Neue';
+    src: local('Reckless Neue Regular'), local('Reckless-Neue-Regular'),
+        url('RecklessNeue-Regular.woff2') format('woff2'),
+        url('RecklessNeue-Regular.woff') format('woff'),
+        url('RecklessNeue-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* fonts for extra sized contents */
+@font-face {
+    font-family: 'Neue Montreal';
+    src: local('Neue Montreal'), local('NeueMontreal-Regular'),
+        url('NeueMontreal-Bold.otf') format('otf'),
+        url('NeueMontreal-Italic.otf') format('otf'),
+        url('NeueMontreal-Regular.otf') format('otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin-bottom: 0rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.fist-block {
+    background-image: url("./IMAGES/main_background_img.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navabara {
+    display: flex;
+    height: 8vh;
+    justify-content: space-around;
+    gap: 20%;
+}
+
+.nava1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 10px;
+}
+
+p.nava-shop {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.nava2 {
+    display: flex;
+    align-items: center;
+}
+
+.nava2 p {
+    font-size: 40px;
+    font-family: 'Philosopher', sans-serif;
+    color: #e3f3ff;
+}
+
+.nava3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-right: 10px;
+}
+
+p.nava-bag {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+p.bag-zero {
+    font-size: 12px;
+    background-color: #384353;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 2px 8px;
+    margin-top: 0px;
+    color: white;
+}
+
+.middle-intro-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+}
+
+.furniture p {
+    font-family: 'Reckless Neue';
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FCFDFD;
+}
+
+.shop-all-btn {
+    margin: 48px;
+
+}
+
+.shop-all-btn a {
+    font-family: 'Neue Montreal';
+    padding: 8px 36px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #323334;
+    background-color: #F8F4E7;
+    letter-spacing: 0.1em;
+    border-radius: 8px;
+}
+
+.sacond-block:not(w-images) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18%;
+}
+
+.wander-txt {
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p.wander-txt {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #323334;
+}
+
+p.w1 {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #323334;
+    margin-top: 34px;
+}
+
+p.w2 {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #323334;
+}
+
+
+img.wandering-img1 {
+    margin-top: 20px;
+}
+
+img.wandering-img2 {
+    position: absolute;
+    left: 38px;
+    margin-top: 211px;
+}
+
+img.wandering-img4 {
+    position: absolute;
+    right: 200px;
+    margin-top: 262px;
+}
+
+img.wandering-img3 {
+    position: absolute;
+    left: 0px;
+    margin-top: 503px;
+}
+
+
+img.wandering-img5 {
+    position: absolute;
+    right: 0px;
+    margin-top: 451px;
+}
+
+img.wandering-img6 {
+    position: absolute;
+    right: 198px;
+    margin-top: 690px;
+}
+
+p.thrd-block-txt {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #323334;
+    margin-top: 100px;
+    border: 1px solid #DFDEDB;
+    padding: 24px 0px;
+}
+
+
+
+
+/* fourth block card stars */
+
+.frth-block {
+    display: flex;
+    justify-content: center;
+}
+
+.card-containr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    flex-wrap: wrap;
+}
+
+.crd {
+    height: auto;
+    width: 330px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all .3s ease-in;
+    white-space: wrap;
+}
+
+/* .crd>* {
+    padding: 10px;
+} */
+
+.crd-desc {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.crd-title {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #323334;
+}
+
+.crd-text {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #384353;
+}
+
+
+
+/* fourth block card ends */
+
+
+p.ffth-block-txt {
+    text-align: center;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #323334;
+    margin-top: 24px;
+    border: 1px solid #DFDEDB;
+    padding: 24px 0px;
+}
+
+.svnth-block {
+    display: flex;
+}
+
+.frst-sectn {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #384353;
+}
+
+.scnd-sectn {
+    width: 50%;
+}
+
+.frst-sec-txt {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.scnd-sectn img {
+    width: 100%;
+}
+
+.suki1 p {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    color: #FCFDFD;
+}
+
+.suki2 p {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #DFDEDB;
+}
+
+/* eight th block starts */
+
+.eth-block-main {
+    width: 100%;
+}
+
+.eth-block {
+    background-image: url("./IMAGES/eth_background.png");
+    width: 100%;
+    height: 136.14609571788412vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.eth-img1 {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 106px;
+}
+
+.eth-img2 {
+    position: absolute;
+    right: 76px;
+    margin-top: 543px;
+}
+
+
+.crd1 {
+    height: auto;
+    width: 291px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all .3s ease-in;
+    white-space: wrap;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.crd-desc1 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 251px;
+}
+
+.crd-title1 {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #323334;
+}
+
+.crd-text1 {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #384353;
+}
+
+.lukbuk {
+    width: 100%;
+    display: flex;
+}
+
+.ninth-block-main {
+    background: #384353;
+    padding-bottom: 54px;
+}
+
+.ninth-sec1 {
+    width: 5%;
+    border: 1px solid #DFDEDB;
+    border-left: none;
+}
+
+p.ver-lukbuk {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #F5F4F3;
+    transform: rotate(-90deg);
+    margin-top: 614px;
+    margin-bottom: 30px;
+}
+
+.ninth-sec2 {
+    width: 52%;
+    border: 1px solid #DFDEDB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ninth-sec3 {
+    width: 43%;
+    border: 1px solid #DFDEDB;
+    border-right: none;
+}
+
+.s2-p2 {
+    margin-top: 409px;
+}
+
+.s2-p1 p {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #F5F4F3;
+}
+
+.s2-p2 p {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #DFDEDB;
+}
+
+.item p {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #F5F4F3;
+    padding-left: 27px;
+    margin-bottom: 0rem;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
+
+.description p {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #F5F4F3;
+    padding-right: 17px;
+    margin-bottom: 0rem;
+    padding-bottom: 9px;
+    padding-top: 7px;
+}
+
+.it,
+.ma,
+.pr,
+.ca {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #DFDEDB;
+    border-left: none;
+    border-right: none;
+}
+
+.it {
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+
+.ca {
+    margin-bottom: 23px;
+}
+
+.ninth-card {
+    padding: 20px;
+}
+
+.crd1n {
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all .3s ease-in;
+    white-space: wrap;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.crd-desc1n {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.crd-title1n {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #323334;
+}
+
+.crd-text1n {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #384353;
+}
+
+.crd-image1n {
+
+    width: 100%;
+}
+
+.crd-image1n img {
+    width: 100%;
+}
+
+
+p.ninth-block-txt {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #F5F4F3;
+    border: 1px solid #DFDEDB;
+    padding: 24px 0px;
+    margin-bottom: 0rem;
+}
+
+/* cards of 10th container */
+
+.card-containrt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.crdt {
+    height: auto;
+    width: 330px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all .3s ease-in;
+    white-space: wrap;
+}
+
+.crd-desct {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.crd-titlet {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #F5F4F3;
+}
+
+.crd-textt {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #DFDEDB;
+}
+
+
+
+
+p.ninth-block-txt-shp {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #FCFDFD;
+    border: 1px solid #DFDEDB;
+    padding: 24px 0px;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+
+/* tenth block starts */
+
+.tth-block-main {}
+
+.tth-block {
+    display: flex;
+    width: 100%;
+}
+
+.t-frst-sectn {
+    border: 1px solid #DFDEDB;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.scnd-sectn-hr {
+    border: 1px solid #DFDEDB;
+    width: 5%;
+}
+
+
+
+
+.t-frst-sec-txt {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+
+.t-suki1 p {
+    padding-top: 165px;
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #323334;
+}
+
+.t-suki2 p {
+    padding-top: 36px;
+    font-family: 'Neue Montreal';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #323334;
+    padding-bottom: 94px;
+}
+
+
+/* eleventh-block-starts */
+
+.eleth-block {
+    width: 100%;
+    display: flex;
+}
+
+.ele-scnd-sectn-hr {
+    border: 1px solid #DFDEDB;
+    width: 5%;
+}
+
+.ele-frst-sectn {
+    width: 95%;
+}
+
+.ele-scnd-sectn-hr p {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    /* text-align: left; */
+    letter-spacing: -0.02em;
+    color: #323334;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 46px;
+    left: -16%;
+}
+
+.img-para-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-para-sec1 {
+    width: 73%;
+}
+
+.img-para-sec2 {
+    width: 27%;
+    border: 1px solid #DFDEDB;
+    border-bottom: none;
+}
+
+.s1-img1 {
+    padding: 17px;
+    width: 100%;
+}
+
+.s1-img1 img {
+    width: 100%;
+    height: auto;
+}
+
+.s2-img2 {
+    padding: 17px 14px 16px 17px;
+}
+
+.s2-img2 img {
+    width: 100%;
+}
+
+.s2-img3 {
+    padding: 31px 14px 18px 17px;
+}
+
+.s2-img3 img {
+    width: 100%;
+}
+
+
+/* 12th block starts */
+.tw-100 {
+    width: 100%;
+}
+
+.tw-fist-block {
+    background-image: url("./IMAGES/tw-back.png");
+    width: 100%;
+    height: 83.75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tw-furniture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tw-furniture img {
+    align-self: center;
+}
