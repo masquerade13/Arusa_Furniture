@@ -789,9 +789,8 @@ p.ninth-block-txt-shp {
     letter-spacing: -0.02em;
     color: #323334;
     transform: rotate(-90deg);
-    position: absolute;
-    bottom: 46px;
-    left: -16%;
+    /* position: absolute; */
+    margin-top: 656px;
 }
 
 .img-para-div {
@@ -856,8 +855,396 @@ p.ninth-block-txt-shp {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 83.75vh;
 }
 
 .tw-furniture img {
     align-self: center;
+}
+
+
+/* 13th block  */
+
+
+p.thth-block-txt {
+    text-align: center;
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #323334;
+    margin-top: 24px;
+    border: 1px solid #DFDEDB;
+    padding: 24px 0px;
+    margin-bottom: 0rem;
+}
+
+
+/* 14th block  */
+
+
+.forteenth-block {
+    width: 100%;
+    display: flex;
+}
+
+
+.forteenth-scnd-sectn-hr {
+    border: 1px solid #DFDEDB;
+    width: 5%;
+}
+
+.what {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forteenth-frst-sectn {
+    width: 50%;
+    padding-left: 13px;
+    padding-right: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forteenth-scnd-sectn {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.forteenth-scnd-sectn-hr p {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #323334;
+    transform: rotate(-90deg);
+    margin-top: 498px;
+    white-space: nowrap;
+}
+
+.forteenth-img-para-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #DFDEDB;
+}
+
+.forteenth-img-para-sec1 {
+    width: 100%;
+}
+
+.s1-img1 {
+    width: 100%;
+}
+
+.forteenth-s1-img1 img {
+    width: 100%;
+    height: auto;
+    padding-right: 9px;
+    padding-top: 33px;
+    padding-bottom: 26px;
+
+}
+
+
+.manhattan p {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    color: #323334;
+    margin-bottom: 0rem;
+}
+
+.interior p {
+    padding-top: 56px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #384353;
+    margin-bottom: 0rem;
+}
+
+.read-more p {
+    padding-top: 56px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #323334;
+    margin-bottom: 0rem;
+}
+
+/* 15th block start  */
+
+p.fiftinth-block-txt {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #323334;
+    border: 1px solid #DFDEDB;
+    padding: 24px 0px;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+
+/* 16th block starts */
+
+.sixteenth-block-main {
+    margin-top: 24px;
+    border-bottom: 1px solid #DFDEDB;
+}
+
+
+.sixteenth-card-containrt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 10px; */
+    flex-wrap: wrap;
+    /* padding: 20px; */
+}
+
+.sixteenth-crdt1 {
+    height: auto;
+    width: 480px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in;
+    white-space: wrap;
+
+}
+
+.sixteenth-crdt2 {
+    height: auto;
+    width: 480px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in;
+    white-space: wrap;
+
+}
+
+.sixteenth-crdt3 {
+    height: auto;
+    width: 480px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in;
+    white-space: wrap;
+
+}
+
+.sixteenth-crd-desct {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sixteenth-crd-titlet {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #323334;
+    padding-top: 16px;
+    padding-left: 11px;
+}
+
+.sixteenth-crd-textt {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #384353;
+    padding-top: 24px;
+    padding-left: 11px;
+}
+
+.sixteenth-crd-etextt {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #323334;
+    padding-top: 24px;
+    padding-left: 11px;
+    padding-bottom: 70px;
+}
+
+
+/* seventeenth block start */
+
+
+.seventeenth-100 {
+    margin-top: 84px;
+    margin-bottom: 72px;
+    padding-left: 4%;
+    padding-right: 4%;
+    width: 100%;
+}
+
+.seventeenth-fist-block {
+    background-image: url("./IMAGES/17.png");
+    width: 100%;
+    height: 85.26vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seventeenth-furniture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83.75vh;
+}
+
+.seventeenth-furniture img {
+    align-self: center;
+}
+
+.seventeenth-furniture-both {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.seventeenth-p p {
+    font-family: 'Reckless Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #F5F4F3;
+    width: 534px;
+}
+
+.seventeenth-mail input {
+    background-color: transparent;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #F5F4F3;
+    border: 1px solid #F5F4F3;
+    padding: 8px 0px 8px 10px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+
+/* eighteenth block starts */
+
+.eighteenth-block {
+    background-color: #384353;
+    padding-bottom: 22px;
+}
+
+.many-links-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.many-link {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F5F4F3;
+}
+
+.many-link p {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #F5F4F3;
+    margin-bottom: 0rem;
+    padding-top: 16px;
+    padding-left: 56px;
+}
+
+p.cap-p {
+    padding-top: 25px;
+}
+
+.arusa-img-div {
+    width: 100%;
+}
+
+img.arusa-logdo {
+    width: 100%;
+    padding-top: 92px;
+    padding-bottom: 92.78px;
+    padding-left: 56px;
+    padding-right: 27px;
+}
+
+p.eighteenth-block-txt-cp {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #F5F4F3;
+    border: 1px solid #DFDEDB;
+    padding: 24px 0px;
+    text-align: center;
 }
