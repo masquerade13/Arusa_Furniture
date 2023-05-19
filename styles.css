@@ -1944,7 +1944,7 @@ p.eighteenth-block-txt-cp {
     }
 
     .crdt-container-4 {
-        width: 100%;
+        width: 150%;
         display: flex;
         gap: 10px;
     }
@@ -2006,6 +2006,38 @@ p.eighteenth-block-txt-cp {
 
 
 
+}
+
+@media (max-width: 1450px) {
+    .crdt-container-4 {
+        display: contents;
+    }
+}
+
+@media (max-width: 1090px) {
+    .crdt-container-4 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 804px) {
+    .crdt-container-4 {
+        display: flex;
+    }
+}
+
+@media (max-width: 730px) {
+    .crdt-container-3 {
+        flex-direction: row;
+        display: flex;
+    }
+
+    .crdt-container-4 {
+        flex-direction: row;
+        display: flex;
+    }
 }
 
 @media (max-width: 800px) {
