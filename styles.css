@@ -27,6 +27,7 @@
 
 body::-webkit-scrollbar {
     display: none;
+    background-color: red;
 }
 
 * {
@@ -92,6 +93,7 @@ p.nava-shop {
     align-items: center;
     gap: 8px;
     padding-right: 10px;
+    padding-bottom: 3px;
 }
 
 p.nava-bag {
@@ -102,6 +104,7 @@ p.nava-bag {
     line-height: 14px;
     letter-spacing: 0.1em;
     color: #000000;
+    margin-bottom: 0rem;
 }
 
 p.bag-zero {
@@ -115,6 +118,7 @@ p.bag-zero {
     padding: 2px 8px;
     margin-top: 0px;
     color: white;
+    margin-bottom: 0rem;
 }
 
 .middle-intro-text {
@@ -159,11 +163,11 @@ p.bag-zero {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 18%;
+    margin-bottom: 28%;
 }
 
 .wander-txt {
-    width: 37%;
+    /* width: 37%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -180,6 +184,7 @@ p.wander-txt {
     text-align: center;
     letter-spacing: -0.05em;
     color: #323334;
+    white-space: nowrap;
 }
 
 p.w1 {
@@ -192,6 +197,10 @@ p.w1 {
     letter-spacing: -0.05em;
     color: #323334;
     margin-top: 34px;
+}
+
+.w2 {
+    width: 30%;
 }
 
 p.w2 {
@@ -249,9 +258,12 @@ p.thrd-block-txt {
     text-align: center;
     letter-spacing: -0.02em;
     color: #323334;
-    margin-top: 100px;
+    margin-top: -300px;
     border: 1px solid #DFDEDB;
     padding: 24px 0px;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 50px;
 }
 
 
@@ -260,15 +272,93 @@ p.thrd-block-txt {
 /* fourth block card stars */
 
 .frth-block {
+    width: 100%;
+}
+
+.card-containr {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.crd {
+    height: auto;
+    width: 25%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: all .3s ease-in;
+    white-space: wrap;
+}
+
+/* .crd>* {
+    padding: 10px;
+} */
+
+.crd-desc {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.crd-title {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #323334;
+}
+
+.crd-text {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #384353;
+}
+
+.crd-image img {
+    width: 100%;
+}
+
+.crd {
+    width: 100%;
+    align-items: center;
+    padding: 0px;
+}
+
+.part1 {
+    display: flex;
+    width: 50%;
+    gap: 10px;
+}
+
+
+/* on media .card-containr {
+    flex-wrap: nowrap;
+} */
+
+/* 
+.frth-block {
+    display: flex;
 }
 
 .card-containr {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 31px;
+    gap: 10px;
+    width: 100%;
     flex-wrap: wrap;
 }
 
@@ -283,10 +373,6 @@ p.thrd-block-txt {
     transition: all .3s ease-in;
     white-space: wrap;
 }
-
-/* .crd>* {
-    padding: 10px;
-} */
 
 .crd-desc {
     padding-top: 10px;
@@ -313,7 +399,7 @@ p.thrd-block-txt {
     line-height: 14px;
     letter-spacing: 0.1em;
     color: #384353;
-}
+} */
 
 
 
@@ -332,6 +418,8 @@ p.ffth-block-txt {
     margin-top: 24px;
     border: 1px solid #DFDEDB;
     padding: 24px 0px;
+    border-right: none;
+    border-left: none;
 }
 
 .svnth-block {
@@ -394,16 +482,23 @@ p.ffth-block-txt {
     background-position: center;
 }
 
+.eth-images {
+    display: flex;
+    flex-direction: column;
+    height: 136.14609571788412vh;
+}
+
+
 .eth-img1 {
-    position: absolute;
     margin-top: 125px;
     margin-left: 106px;
+    align-self: flex-start;
 }
 
 .eth-img2 {
-    position: absolute;
-    right: 76px;
-    margin-top: 543px;
+    margin-right: 76px;
+    padding-bottom: 173px;
+    align-self: flex-end;
 }
 
 
@@ -635,6 +730,8 @@ p.ninth-block-txt {
     border: 1px solid #DFDEDB;
     padding: 24px 0px;
     margin-bottom: 0rem;
+    border-left: none;
+    border-right: none;
 }
 
 /* cards of 10th container */
@@ -702,6 +799,8 @@ p.ninth-block-txt-shp {
     padding: 24px 0px;
     margin-bottom: 0rem;
     text-align: center;
+    border-right: none;
+    border-left: none;
 }
 
 
@@ -789,8 +888,10 @@ p.ninth-block-txt-shp {
     letter-spacing: -0.02em;
     color: #323334;
     transform: rotate(-90deg);
-    /* position: absolute; */
-    margin-top: 656px;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: -3%;
+    margin-right: 3%;
 }
 
 .img-para-div {
@@ -807,6 +908,7 @@ p.ninth-block-txt-shp {
     width: 27%;
     border: 1px solid #DFDEDB;
     border-bottom: none;
+    border-top: none;
 }
 
 .s1-img1 {
@@ -825,6 +927,15 @@ p.ninth-block-txt-shp {
 
 .s2-img2 img {
     width: 100%;
+    height: auto;
+}
+
+.s2-img2-res {
+    display: none;
+}
+
+.s2-img3-res {
+    display: none;
 }
 
 .s2-img3 {
@@ -880,6 +991,8 @@ p.thth-block-txt {
     border: 1px solid #DFDEDB;
     padding: 24px 0px;
     margin-bottom: 0rem;
+    border-right: none;
+    border-left: none;
 }
 
 
@@ -1005,6 +1118,8 @@ p.fiftinth-block-txt {
     padding: 24px 0px;
     margin-bottom: 0rem;
     text-align: center;
+    border-right: none;
+    border-left: none;
 }
 
 
@@ -1020,9 +1135,7 @@ p.fiftinth-block-txt {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 10px; */
     flex-wrap: wrap;
-    /* padding: 20px; */
 }
 
 .sixteenth-crdt1 {
@@ -1161,7 +1274,7 @@ p.fiftinth-block-txt {
     text-align: center;
     letter-spacing: -0.05em;
     color: #F5F4F3;
-    width: 534px;
+    /* width: 534px; */
 }
 
 .seventeenth-mail input {
@@ -1201,7 +1314,7 @@ p.fiftinth-block-txt {
 }
 
 .many-link {
-    width: 25%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     border: 1px solid #F5F4F3;
@@ -1247,4 +1360,1248 @@ p.eighteenth-block-txt-cp {
     border: 1px solid #DFDEDB;
     padding: 24px 0px;
     text-align: center;
+    border-right: none;
+    border-left: none;
+}
+
+.many-links-part1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.many-links-part2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1181px) {
+
+    .forteenth-scnd-sectn-hr p {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+        color: #323334;
+        transform: rotate(-90deg);
+        margin-top: 430px;
+        white-space: nowrap;
+    }
+
+    .manhattan p {
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: -0.04em;
+        color: #323334;
+        margin-bottom: 0rem;
+    }
+
+    .interior p {
+        padding-top: 36px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 19px;
+        color: #384353;
+        margin-bottom: 0rem;
+    }
+
+    .read-more p {
+        padding-top: 26px;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 0.1em;
+        color: #323334;
+        margin-bottom: 0rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    .sixteenth-card-containrt {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .tw-furniture {
+        width: 100%;
+        display: none;
+    }
+
+
+
+    /* ninth block css starts  */
+
+    .lukbuk {
+        width: 100%;
+        display: flex;
+    }
+
+    .ninth-block-main {
+        background: #384353;
+        padding-bottom: 54px;
+    }
+
+    .ninth-sec1 {
+        display: none;
+    }
+
+    p.ver-lukbuk {
+        font-family: 'Reckless Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #F5F4F3;
+        transform: rotate(-90deg);
+        margin-top: 614px;
+        margin-bottom: 30px;
+    }
+
+    .ninth-sec2 {
+        width: 52%;
+        border: 1px solid #DFDEDB;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ninth-sec3 {
+        width: 48%;
+        border: 1px solid #DFDEDB;
+        border-right: none;
+    }
+
+    .s2-p2 {
+        margin-top: 409px;
+    }
+
+    .s2-p1 p {
+        font-family: 'Reckless Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 64px;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #F5F4F3;
+        margin-top: 16px;
+    }
+
+    .s2-p2 p {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: center;
+        color: #DFDEDB;
+    }
+
+    .item p {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.1em;
+        color: #F5F4F3;
+        padding-left: 27px;
+        margin-bottom: 0rem;
+        padding-top: 7px;
+        padding-bottom: 9px;
+    }
+
+    .description p {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.1em;
+        color: #F5F4F3;
+        padding-right: 17px;
+        margin-bottom: 0rem;
+        padding-bottom: 9px;
+        padding-top: 7px;
+    }
+
+    .it,
+    .ma,
+    .pr,
+    .ca {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #DFDEDB;
+        border-left: none;
+        border-right: none;
+    }
+
+    .it {
+        margin-top: 22px;
+        margin-bottom: 0px;
+    }
+
+    .ca {
+        margin-bottom: 23px;
+    }
+
+    .ninth-card {
+        padding: 20px;
+    }
+
+    .crd1n {
+        height: auto;
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: all .3s ease-in;
+        white-space: wrap;
+        background-color: white;
+        padding: 20px;
+    }
+
+
+    .crd-desc1n {
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .crd-title1n {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.1em;
+        color: #323334;
+    }
+
+    .crd-text1n {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.1em;
+        color: #384353;
+    }
+
+    .crd-image1n {
+
+        width: 100%;
+    }
+
+    .crd-image1n img {
+        width: 100%;
+    }
+
+
+    p.ninth-block-txt {
+        font-family: 'Reckless Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #F5F4F3;
+        border: 1px solid #DFDEDB;
+        padding: 24px 0px;
+        margin-bottom: 0rem;
+        border-left: none;
+        border-right: none;
+    }
+
+    /* ninth block css ends  */
+
+}
+
+
+@media (max-width: 977px) {
+
+    .furniture p {
+        font-size: 66px !important;
+    }
+}
+
+@media (max-width: 829px) {
+
+    .furniture p {
+        font-size: 50px !important;
+    }
+}
+
+@media (max-width: 642px) {
+
+    .furniture p {
+        font-size: 40px !important;
+    }
+}
+
+@media (max-width: 900px) {
+
+
+    .tw-fist-block {
+        background-image: url("./IMAGES/tw-back.png");
+        width: 100%;
+        height: 83.75vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .eth-block {
+        width: 100%;
+        height: 83.62vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .s2-p2 {
+        margin-top: 56px;
+        padding: 16px;
+    }
+
+    .description p {
+        text-align: right;
+    }
+
+    /* media for seventh block starts */
+
+    .svnth-block {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #384353;
+    }
+
+    .frst-sectn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #384353;
+    }
+
+    .scnd-sectn {
+        width: 100%;
+    }
+
+    .frst-sec-txt {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding: 16px;
+    }
+
+    .scnd-sectn img {
+        width: 100%;
+        padding: 16px;
+    }
+
+
+    /* media for seventh block ends */
+
+}
+
+@media (max-width: 864px) {
+
+    .eth-img1 {
+        display: none;
+    }
+
+    .eth-img2 {
+        display: none;
+    }
+
+    .forteenth-block-main {
+        display: none;
+    }
+
+    .fiftinth-block-main {
+        display: none;
+    }
+
+    .eleth-block {
+        width: 100%;
+        display: flex;
+        border: none;
+    }
+
+    .ele-scnd-sectn-hr {
+        display: none;
+    }
+
+    .ele-frst-sectn {
+        width: 100%;
+    }
+
+    .t-frst-sectn {
+        width: 100%;
+    }
+
+    .scnd-sectn-hr {
+        display: none;
+    }
+
+
+
+    .ele-frst-sectn {
+        width: 100%;
+    }
+
+    .ele-scnd-sectn-hr p {
+        font-family: 'Reckless Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        /* text-align: left; */
+        letter-spacing: -0.02em;
+        color: #323334;
+        transform: rotate(-90deg);
+        position: absolute;
+        margin-top: 40%;
+        margin-left: -3%;
+        margin-right: 3%;
+    }
+
+    .img-para-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-para-sec1 {
+        width: 100%;
+        border: none;
+    }
+
+    .img-para-sec2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border: none;
+    }
+
+    .s1-img1 {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .s1-img1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .s2-img2 {
+        display: none;
+    }
+
+    .s2-img2-res {
+        width: 50%;
+        display: inline;
+        padding: 8px;
+    }
+
+    .s2-img2-res img {
+        width: 100%;
+    }
+
+    .s2-img3 {
+        display: none;
+    }
+
+    .s2-img3-res {
+        width: 50%;
+        display: inline;
+        padding: 8px;
+    }
+
+    .s2-img3-res img {
+        width: 100%;
+    }
+
+    .t-suki1 p {
+        padding-top: 40px;
+    }
+
+    .t-suki2 p {
+        padding-bottom: 30px;
+    }
+
+}
+
+
+
+@media (max-width: 730px) {
+
+    /* wandering image  */
+    .thrd-block-main {
+        margin-top: 10%;
+    }
+
+    .wander-txt {
+        /* width: 167%; */
+    }
+
+    .w2 {
+        width: 100%;
+    }
+
+    /* wandering image  */
+
+    .it {
+        display: none;
+    }
+
+    .lukbuk {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ninth-secy {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ninth-secy :nth-child(1) {
+        order: 2;
+    }
+
+    .ninth-secy :nth-child(2) {
+        order: 3;
+    }
+
+    .ninth-secy :nth-child(3) {
+        order: 1;
+    }
+
+    .ninth-secy :nth-child(4) {
+        order: 1;
+    }
+
+    .ninth-secy :nth-child(5) {
+        order: 1;
+    }
+
+    .ninth-sec2 {
+        width: 100%;
+    }
+
+    .ninth-sec3 {
+        width: 100%;
+    }
+
+    /* .crd-image img {
+        width: 100%;
+    }
+
+    .crd {
+        width: 100%;
+        align-items: center;
+        padding: 0 8px 0 8px;
+    }
+
+    .crd-desc {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } */
+
+
+    .crdt-container-1 {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+    }
+
+    .crdt-container-2 {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+    }
+
+    .crdt-container-3 {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+    }
+
+    .crdt-container-4 {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+    }
+
+
+    .card-containrt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .crd-imaget img {
+        width: 100%;
+    }
+
+    .crdt {
+        height: auto;
+        width: 50%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: all .3s ease-in;
+        /* white-space: wrap; */
+        /* border: 1px solid #F5F4F3; */
+    }
+
+    .crd-desct {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .crd-titlet {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.1em;
+        color: #F5F4F3;
+    }
+
+    .crd-textt {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.1em;
+        color: #DFDEDB;
+    }
+
+
+
+}
+
+@media (max-width: 800px) {
+
+    .many-links-container {
+        flex-direction: column;
+    }
+
+    .seventeenth-p p {
+        font-weight: 200;
+        font-size: 36px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #F5F4F3;
+        /* width: 534px; */
+        margin-bottom: 0rem;
+    }
+
+    .seventeenth-100 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .s-frst-l-1 {
+        width: 80%;
+    }
+
+    .s-frst-l-2 {
+        width: 80%;
+    }
+
+    .s-frst-l-3 {
+        width: 80%;
+    }
+
+    .sixteenth-crdt1 {
+        display: flex;
+        width: 100%;
+    }
+
+    .sixteenth-crd-imaget img {
+        width: 100%;
+    }
+
+    .sixteenth-crdt2 {
+        display: flex;
+        width: 100%;
+
+    }
+
+    .sixteenth-crdt3 {
+        display: flex;
+        width: 100%;
+
+    }
+}
+
+
+
+
+/* queries for second blocks's wandering images  */
+
+
+@media (max-width: 1300px) {
+
+
+    .wander-txt {
+        /* width: 37%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    p.wander-txt {
+        font-family: 'Reckless Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #323334;
+        white-space: nowrap;
+    }
+
+    p.w1 {
+        font-family: 'Reckless Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #323334;
+        margin-top: 34px;
+    }
+
+    .w2 {
+        width: 100%;
+    }
+
+    p.w2 {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+        text-align: center;
+        color: #323334;
+    }
+
+    .shop-all-btn {
+        margin: 28px;
+    }
+
+
+    img.wandering-img1 {
+        margin-top: 20px;
+    }
+
+    img.wandering-img2 {
+        position: absolute;
+        left: 38px;
+        margin-top: 211px;
+    }
+
+    img.wandering-img4 {
+        position: absolute;
+        right: 200px;
+        margin-top: 262px;
+    }
+
+    img.wandering-img3 {
+        position: absolute;
+        left: 0px;
+        margin-top: 503px;
+    }
+
+
+    img.wandering-img5 {
+        position: absolute;
+        right: 0px;
+        margin-top: 451px;
+    }
+
+    img.wandering-img6 {
+        position: absolute;
+        right: 198px;
+        margin-top: 690px;
+    }
+
+}
+
+@media (max-width: 1226px) {
+
+    p.thrd-block-txt {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 1230px) {
+
+    .furniture p {
+        font-size: 76px;
+    }
+
+    img.wandering-img1 {
+        margin-top: 20px;
+    }
+
+    img.wandering-img2 {
+        position: absolute;
+        left: 28px;
+        margin-top: 211px;
+    }
+
+    img.wandering-img4 {
+        position: absolute;
+        right: 130px;
+        margin-top: 262px;
+    }
+
+    img.wandering-img3 {
+        position: absolute;
+        left: -40px;
+        margin-top: 503px;
+    }
+
+
+    img.wandering-img5 {
+        position: absolute;
+        right: 0px;
+        margin-top: 451px;
+    }
+
+    img.wandering-img6 {
+        position: absolute;
+        right: 128px;
+        margin-top: 700px;
+    }
+
+
+
+}
+
+@media (max-width: 1090px) {
+
+    img.wandering-img1 {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    img.wandering-img2 {
+        position: absolute;
+        left: 18px;
+        margin-top: 300px;
+    }
+
+    img.wandering-img4 {
+        position: absolute;
+        right: 70px;
+        margin-top: 262px;
+    }
+
+    img.wandering-img3 {
+        position: absolute;
+        left: -80px;
+        margin-top: 553px;
+    }
+
+
+    img.wandering-img5 {
+        position: absolute;
+        right: 0px;
+        margin-top: 451px;
+    }
+
+    img.wandering-img6 {
+        position: absolute;
+        right: 70px;
+        margin-top: 710px;
+    }
+
+    .thrd-block-main {
+        margin-top: 360px;
+    }
+
+}
+
+
+@media (max-width: 980px) {
+
+    p.wander-txt {
+        font-family: 'Reckless Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #323334;
+        white-space: nowrap;
+    }
+
+    p.w1 {
+        font-family: 'Reckless Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #323334;
+        margin-top: 34px;
+    }
+
+    .w2 {
+        width: 100%;
+    }
+
+    p.w2 {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 19px;
+        text-align: center;
+        color: #323334;
+    }
+
+    img.wandering-img1 {
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 70%;
+    }
+
+    img.wandering-img2 {
+        width: 20%;
+        position: absolute;
+        left: 18px;
+        margin-top: 300px;
+    }
+
+    img.wandering-img4 {
+        width: 20%;
+        position: absolute;
+        right: 20px;
+        margin-top: 262px;
+    }
+
+    img.wandering-img3 {
+        width: 30%;
+        position: absolute;
+        left: -20px;
+        margin-top: 553px;
+    }
+
+
+    img.wandering-img5 {
+        width: 20%;
+        position: absolute;
+        right: 0px;
+        margin-top: 451px;
+    }
+
+    img.wandering-img6 {
+        width: 20%;
+        position: absolute;
+        right: 215px;
+        margin-top: 650px;
+    }
+
+    .thrd-block-main {
+        margin-top: 260px;
+    }
+
+}
+
+.wandering-img-res-1,
+.wandering-img-res-2,
+.wandering-img-res-3,
+.wandering-img-res-4,
+.wandering-img-res-5,
+.wandering-img-res-6 {
+    display: none;
+}
+
+
+
+@media (max-width: 482px) {}
+
+
+@media (max-width: 482px) {
+
+    .navabara {
+        display: flex;
+        height: 8vh;
+        justify-content: space-between;
+        gap: 15%;
+    }
+
+    p.w1 {
+        font-size: 36px;
+        margin-top: 188px;
+        letter-spacing: -0.04em;
+        margin-bottom: 0rem;
+    }
+
+    p.w2 {
+        margin-bottom: 0rem;
+        font-size: 15px;
+        margin-top: 36px;
+    }
+
+    .wander-txt {
+        margin-top: 188px;
+    }
+
+    .wandering-img1,
+    .wandering-img2,
+    .wandering-img3,
+    .wandering-img4,
+    .wandering-img5,
+    .wandering-img6 {
+        display: none;
+    }
+
+    .wandering-img-res-1 {
+        position: absolute;
+        margin-top: 41px;
+        /* margin-left: 32px; */
+        left: 32px;
+        display: inline;
+    }
+
+    .wandering-img-res-2 {
+        margin-top: 126px;
+        right: 7px;
+        display: inline;
+        position: absolute;
+    }
+
+    .wandering-img-res-4 {
+        margin-top: 222px;
+        right: 0px;
+        display: inline;
+        position: absolute;
+    }
+
+    .wandering-img-res-4 {
+        margin-top: 222px;
+        right: 0px;
+        display: inline;
+        position: absolute;
+    }
+
+    .wandering-img-res-5 {
+        display: inline;
+        margin-top: 238px;
+        left: 0px;
+        position: absolute;
+    }
+
+    .wandering-img-res-6 {
+        display: inline;
+        margin-top: 571px;
+        right: 0px;
+        position: absolute;
+    }
+
+}
+
+
+@media (max-width: 507px) {
+
+    .furniture p {
+        font-size: 35px !important;
+    }
+
+    p.wander-txt {
+        font-size: 42px;
+    }
+
+    p.w1 {
+        font-size: 36px;
+        margin-top: 34px;
+    }
+
+    .w2 {
+        width: 100%;
+    }
+
+    p.w2 {
+        font-size: 15px;
+    }
+
+
+    img.wandering-img1 {
+        position: relative;
+        margin-top: 41px;
+        left: -40px !important;
+        width: 147px;
+        height: auto;
+    }
+
+    img.wandering-img2 {
+        width: 20%;
+        left: -25px;
+        margin-top: 300px;
+    }
+
+    img.wandering-img4 {
+        width: 20%;
+        right: 7px;
+        margin-top: 126px;
+        width: 76px;
+        height: auto;
+    }
+
+    img.wandering-img3 {
+        width: 30%;
+        left: -20px;
+        margin-top: 553px;
+    }
+
+
+    img.wandering-img5 {
+        width: 20%;
+        right: 0px;
+        margin-top: 451px;
+    }
+
+    img.wandering-img6 {
+        width: 20%;
+        right: 215px;
+        margin-top: 650px;
+    }
+
+    .thrd-block-main {
+        margin-top: 260px;
+    }
+
+}
+
+
+
+
+@media (max-width: 375px) {
+
+    p.wander-txt {
+        font-size: 42px;
+    }
+
+    p.w1 {
+        font-size: 36px;
+        margin-top: 34px;
+    }
+
+    .w2 {
+        width: 100%;
+    }
+
+    p.w2 {
+        font-size: 15px;
+    }
+
+    img.wandering-img1 {
+        position: relative;
+        margin-top: 41px;
+        left: -40px !important;
+        width: 147px;
+        height: auto;
+    }
+
+    img.wandering-img2 {
+        width: 20%;
+        left: 18px;
+        margin-top: 300px;
+    }
+
+    img.wandering-img4 {
+        width: 20%;
+        right: 7px;
+        margin-top: 126px;
+        width: 76px;
+        height: auto;
+    }
+
+    img.wandering-img3 {
+        width: 30%;
+        left: -20px;
+        margin-top: 553px;
+    }
+
+
+    img.wandering-img5 {
+        width: 20%;
+        right: -62px;
+        margin-top: 222px;
+    }
+
+    img.wandering-img6 {
+        width: 20%;
+        right: 215px;
+        margin-top: 650px;
+    }
+
+    .thrd-block-main {
+        margin-top: 260px;
+    }
+
+}
+
+
+@media (max-width: 1349px) {
+    .card-containr {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .part1 {
+        display: flex;
+        width: 100%;
+        gap: 10px;
+    }
 }
